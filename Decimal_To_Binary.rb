@@ -13,9 +13,9 @@ def decimal_to_binary(decimal)
         resArray.push(res)*
         decimal = decimal / 2
     end
-    binString = ""
+    binaryString = ""
     while not resArray.empty? 
-        binString = binString + resArray.pop().to_s
+        binaryString = binaryString + resArray.pop().to_s
     end
-        binString
+    binaryString
 end
